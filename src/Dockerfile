@@ -1,4 +1,3 @@
-
 FROM nginx:alpine
-COPY ./web1 /usr/share/nginx/html/
-COPY ./web2 /usr/share/nginx/html/
+COPY ./WEB01 /usr/share/nginx/html/
+COPY ./WEB02 /usr/share/nginx/html/
